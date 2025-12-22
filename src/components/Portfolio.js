@@ -13,6 +13,7 @@ const Portfolio = () => {
                                    },
                                    {
                                         p: {
+                                             className: "section-intro",
                                              text: "A selection of projects we've delivered for growing brands across industries.",
                                         },
                                    },

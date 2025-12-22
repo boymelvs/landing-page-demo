@@ -16,7 +16,7 @@ const Headers = (props, { getState, setState, juris }) => {
                               children: [
                                    {
                                         a: {
-                                             href: "/",
+                                             href: "#home",
                                              id: "logo",
                                              className: "logo",
                                              children: [
