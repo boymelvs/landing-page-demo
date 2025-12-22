@@ -23,7 +23,7 @@ const NavLink = (props, context) => {
                                         children: [
                                              {
                                                   a: {
-                                                       href: `${item === "home" ? "/" : "#" + item}`,
+                                                       href: `${item === "home" ? "#" : "#" + item}`,
                                                        className: () => `nav-link ${getState("activeNavLink", "home") === item ? "active" : null}`,
                                                        children: [
                                                             {
