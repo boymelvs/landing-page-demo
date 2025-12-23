@@ -26,8 +26,13 @@ const Portfolio = () => {
                                                             className: "portfolio-card",
                                                             children: [
                                                                  {
-                                                                      div: { className: "portfolio-image", text: "Project Image" },
+                                                                      img: {
+                                                                           className: "portfolio-image",
+                                                                           src: "/assets/photos/Growth-campaign.jpg",
+                                                                           alt: "E-commerce Growth Campaign",
+                                                                      },
                                                                  },
+
                                                                  {
                                                                       h3: {
                                                                            text: "E-commerce Growth Campaign",
@@ -45,7 +50,11 @@ const Portfolio = () => {
                                                             className: "portfolio-card",
                                                             children: [
                                                                  {
-                                                                      div: { className: "portfolio-image", text: "Project Image" },
+                                                                      img: {
+                                                                           className: "portfolio-image",
+                                                                           src: "/assets/photos/Brand-Redesign.jpg",
+                                                                           alt: "Brand Redesign",
+                                                                      },
                                                                  },
                                                                  {
                                                                       h3: {
@@ -63,7 +72,11 @@ const Portfolio = () => {
                                                             className: "portfolio-card",
                                                             children: [
                                                                  {
-                                                                      div: { className: "portfolio-image", text: "Project Image" },
+                                                                      img: {
+                                                                           className: "portfolio-image",
+                                                                           src: "/assets/photos/Lead-Generation-Website.jpg",
+                                                                           alt: "Lead Generation Website",
+                                                                      },
                                                                  },
                                                                  {
                                                                       h3: {
