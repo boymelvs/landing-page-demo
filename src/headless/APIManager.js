@@ -43,6 +43,10 @@ const APIManager = (props, { getState, setState }) => {
                setState("messageError", "Server is Busy! Try again later");
           } finally {
                setState("spinner", false);
+               setTimeout(() => {
+                    setState("messageSent", false);
+                    setState("messageError", null);
+               }, 10000);
           }
      }
 
