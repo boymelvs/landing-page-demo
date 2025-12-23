@@ -27,7 +27,7 @@ The landing page is divided into 5 core sections:
 
 -    Hero section with company name and short description
 -    Services section outlining offerings
--    Portfolio section showing projects delivered
+-    Portfolio section to showcase sample projects.
 -    Testimonials Section What Our Clients Say
 -    Contact Us section with a form
 
@@ -102,6 +102,6 @@ Given more time, I would consider the following enhancements:
 
 10. Submission References
 
--    Landing Page URL or Screenshots: [[Landing Page Demo](https://boymelvs.github.io/landing-page-demo/#services)]
--    Loom Recording – Landing Page Demo: [Insert Link]
--    Loom Recording – n8n Workflow Walkthrough: [Insert Link]
+-    Landing Page URL:[Landing Page](https://boymelvs.github.io/landing-page-demo/)
+-    Loom Recording – [Landing Page Demo:](https://boymelvs.github.io/landing-page-demo/)
+-    Loom Recording – [n8n Workflow Walkthrough:](https://boymelvs.github.io/landing-page-demo/)

@@ -258,7 +258,10 @@ const Contact = (props, { getState, setState, APIManager }) => {
                                                   {
                                                        div: {
                                                             className: "formFeedback",
-                                                            text: () => (getState("messageSent", false) ? "Message Successfully Sent!" : getState("messageError", null)),
+                                                            text: () =>
+                                                                 getState("messageSent", false)
+                                                                      ? "Got it! Check your inbox—we'll be in touch soon."
+                                                                      : getState("messageError", null),
                                                             style: {
                                                                  marginTop: "8px",
                                                                  fontSize: "13px",
