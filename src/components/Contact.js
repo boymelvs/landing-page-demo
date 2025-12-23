@@ -263,12 +263,13 @@ const Contact = (props, { getState, setState, APIManager }) => {
                                                                       ? "Got it! Check your inbox—we'll be in touch soon."
                                                                       : getState("messageError", null),
                                                             style: {
-                                                                 marginTop: "8px",
-                                                                 fontSize: "13px",
+                                                                 marginTop: "10px",
+                                                                 fontSize: "14px",
                                                                  color: () => (getState("messageSent", false) ? "var(--green)" : "var(--light-red)"),
                                                                  width: "100%",
                                                                  textAlign: "center",
                                                                  height: "1.6rem",
+                                                                 fontWeight: "600",
                                                             },
                                                        },
                                                   },
