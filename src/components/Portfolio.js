@@ -28,7 +28,7 @@ const Portfolio = () => {
                                                                  {
                                                                       img: {
                                                                            className: "portfolio-image",
-                                                                           src: "/assets/photos/Growth-campaign.jpg",
+                                                                           src: "./assets/photos/Growth-campaign.jpg",
                                                                            alt: "E-commerce Growth Campaign",
                                                                       },
                                                                  },
@@ -52,7 +52,7 @@ const Portfolio = () => {
                                                                  {
                                                                       img: {
                                                                            className: "portfolio-image",
-                                                                           src: "/assets/photos/Brand-Redesign.jpg",
+                                                                           src: "./assets/photos/Brand-Redesign.jpg",
                                                                            alt: "Brand Redesign",
                                                                       },
                                                                  },
@@ -74,7 +74,7 @@ const Portfolio = () => {
                                                                  {
                                                                       img: {
                                                                            className: "portfolio-image",
-                                                                           src: "/assets/photos/Lead-Generation-Website.jpg",
+                                                                           src: "./assets/photos/Lead-Generation-Website.jpg",
                                                                            alt: "Lead Generation Website",
                                                                       },
                                                                  },
