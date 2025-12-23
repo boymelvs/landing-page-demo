@@ -48,7 +48,7 @@ body {
 .header {
      background: linear-gradient(135deg, #0f172a, #1e293b);
      max-width: 1440px;
-     padding: 20px;
+     padding: 10px;
      width: 100%;
      position: fixed;
      transition: all 300ms ease-in;
@@ -57,7 +57,7 @@ body {
 
 @media (min-width: 768px) {
      .header {
-          padding: 20px 40px;
+          padding: 10px 40px;
      }
 }
 
@@ -88,13 +88,6 @@ body {
      display: flex;
      justify-content: center;
      gap: 20px;
-     background: linear-gradient(135deg, #0f172a, #1e293b);
-}
-
-@media (min-width: 930px) {
-     .nav-menu {
-          gap: 25px;
-     }
 }
 
 /* li */
@@ -206,6 +199,7 @@ body {
           width: 100%;
           transform: translateY(-250%);
           transition: all 0.4s ease-in-out;
+          background: linear-gradient(135deg, #0f172a, #1e293b);
      }
 
      .nav-link {
