@@ -36,7 +36,7 @@ const APIManager = (props, { getState, setState }) => {
 
                     setTimeout(() => {
                          setState("messageSent", false);
-                    }, 5000);
+                    }, 10000);
                }
           } catch (error) {
                console.error(error);
