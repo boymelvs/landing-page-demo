@@ -11,7 +11,17 @@ const RouteManager = (props, context) => {
                     window.removeEventListener("scroll", handleScroll, { capture: true });
                },
           },
+
+          api: {
+               navigate: (href) => navigate(href),
+          },
      };
+
+     function navigate(href) {
+          window.history.pushState({}, "", href); // change url manually
+          window.dispatchEvent(new PopStateEvent("popstate"));
+          setState("link", href);
+     }
 
      function handleScroll() {
           const home = document.getElementById("home");

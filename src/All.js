@@ -1,49 +1,35 @@
 import Headers from "./components/Headers/Headers.js";
-import Hero from "./components/Hero.js";
-import Services from "./components/Services.js";
-import Portfolio from "./components/Portfolio.js";
-import Testimonial from "./components/Testimonial.js";
-import Contact from "./components/Contact.js";
+import Main from "./components/Main/Main.js";
 import Footer from "./components/Footer.js";
+
+import Demo from "./Pages/Demo.js";
 
 const All = (props, { getState, setState, juris }) => {
      juris.registerComponent("Headers", Headers);
-     juris.registerComponent("Hero", Hero);
-     juris.registerComponent("Services", Services);
-     juris.registerComponent("Portfolio", Portfolio);
-     juris.registerComponent("Testimonial", Testimonial);
-     juris.registerComponent("Contact", Contact);
+     juris.registerComponent("Main", Main);
      juris.registerComponent("Footer", Footer);
+     juris.registerComponent("Demo", Demo);
 
-     return {
-          main: {
-               className: "main",
-               children: [
-                    {
-                         Headers: {},
-                    },
-                    {
-                         Hero: {},
-                    },
-                    {
-                         Services: {},
-                    },
-                    {
-                         Portfolio: {},
-                    },
+     return [
+          { Headers: {} },
 
-                    {
-                         Testimonial: {},
-                    },
-                    {
-                         Contact: {},
-                    },
-                    {
-                         Footer: {},
-                    },
-               ],
+          () => {
+               const link = getState("link", "/");
+
+               switch (link) {
+                    case "/":
+                         return { Main: {} };
+
+                    case "#demo":
+                         return { Demo: {} };
+
+                    default:
+                         return { Main: {} };
+               }
           },
-     };
+
+          { Footer: {} },
+     ];
 };
 
 export default All;
