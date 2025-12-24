@@ -32,10 +32,7 @@ const APIManager = (props, { getState, setState }) => {
                const data = await res.json();
 
                if (data.success) {
-                    setState("messageSent", data.success);
-                    setTimeout(() => {
-                         reset();
-                    }, 2500);
+                    reset();
                }
           } catch (error) {
                console.error(error);
@@ -84,8 +81,12 @@ const APIManager = (props, { getState, setState }) => {
           setState("form.email", "");
           setState("form.subject", "");
           setState("form.message", "");
-          setState("messageSent", false);
           setState("spinner", false);
+          setState("messageSent", true);
+
+          setTimeout(() => {
+               setState("messageSent", false);
+          }, 2500);
      }
 };
 
