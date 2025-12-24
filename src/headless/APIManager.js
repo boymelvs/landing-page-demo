@@ -86,7 +86,7 @@ const APIManager = (props, { getState, setState }) => {
 
           setTimeout(() => {
                setState("messageSent", false);
-          }, 2500);
+          }, 5000);
      }
 };
 
