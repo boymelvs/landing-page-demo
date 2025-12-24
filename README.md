@@ -103,5 +103,5 @@ Given more time, I would consider the following enhancements:
 10. Submission References
 
 -    Landing Page URL:[Landing Page](https://boymelvs.github.io/landing-page-demo/)
--    Recording – [Landing Page Presentation:](https://boymelvs.github.io/landing-page-demo/)
+-    Recording – [Landing Page Presentation:](https://youtu.be/SGnnyrLSaww)
 -    Loom Recording – [Form Submission Demo:](https://www.loom.com/share/797a06e763d84887864a8cadbf91507b)

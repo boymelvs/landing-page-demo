@@ -19,7 +19,7 @@ const Demo = (props, { getState, setState }) => {
                                              children: [
                                                   {
                                                        video: {
-                                                            src: "./assets/landingpage-demo(1).mp4",
+                                                            src: "./assets/landingpage-tryout-task.mp4",
                                                             controls: true,
                                                             width: "100%",
                                                        },
